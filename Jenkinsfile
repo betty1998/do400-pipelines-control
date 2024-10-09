@@ -15,9 +15,6 @@ pipeline {
                       sh 'node ./frontend/test.js'
                  }
             }
-                }
-           }
+           
       }
-          }
-     }
 }
