@@ -1,4 +1,4 @@
-node('nodejs') {
+pipeline {
       agent {
           node{
               label 'nodejs'
